@@ -1,0 +1,24 @@
+{
+  "name": "random-str-msg-johan",
+  "version": "1.0.0",
+  "description": "Random string message generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdrodriguez2707/random-str-msg-johan"
+  },
+  "keywords": [],
+  "author": "Johan Rodriguez <johandavid.jdr@gmail.com> (https://github.com/jdrodriguez2707)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdrodriguez2707/random-str-msg-johan/issues"
+  },
+  "homepage": "https://github.com/jdrodriguez2707/random-str-msg-johan#readme",
+  "bin": {
+    "random-motivational-message": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
