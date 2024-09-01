@@ -1,5 +1,5 @@
 {
-  "name": "random-str-msg-johan",
+  "name": "random-motivational-msgs",
   "version": "1.0.0",
   "description": "Random string message generator",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdrodriguez2707/random-str-msg-johan"
+    "url": "git+https://github.com/jdrodriguez2707/random-motivational-msgs"
   },
   "keywords": [],
   "author": "Johan Rodriguez <johandavid.jdr@gmail.com> (https://github.com/jdrodriguez2707)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jdrodriguez2707/random-str-msg-johan/issues"
+    "url": "https://github.com/jdrodriguez2707/random-motivational-msgs/issues"
   },
-  "homepage": "https://github.com/jdrodriguez2707/random-str-msg-johan#readme",
+  "homepage": "https://github.com/jdrodriguez2707/random-motivational-msgs#readme",
   "bin": {
     "random-motivational-message": "./bin/global.js"
   },
