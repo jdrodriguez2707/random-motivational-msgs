@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/jdrodriguez2707/random-motivational-msgs"
   },
-  "keywords": [],
+  "keywords": [
+    "random",
+    "motivational messages",
+    "javascript"
+  ],
   "author": "Johan Rodriguez <johandavid.jdr@gmail.com> (https://github.com/jdrodriguez2707)",
   "license": "MIT",
   "bugs": {
