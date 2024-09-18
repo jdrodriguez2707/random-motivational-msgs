@@ -1,4 +1,5 @@
 const messages = [
+  "Your only competitor is the one you see in the mirror",
   "You got to lose to know how to win",
   "Code like a boss",
   "Embrace the bugs, they make you stronger",
