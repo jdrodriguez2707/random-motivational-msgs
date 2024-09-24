@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/jdrodriguez2707/random-motivational-msgs#readme",
   "bin": {
-    "random-motivational-message": "./bin/global.js"
+    "motivate": "./bin/global.js"
   },
   "preferGlobal": true,
   "type": "module"

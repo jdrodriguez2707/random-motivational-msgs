@@ -1,29 +1,4 @@
-const messages = [
-  "Your only competitor is the one you see in the mirror",
-  "You got to lose to know how to win",
-  "Code like a boss",
-  "Embrace the bugs, they make you stronger",
-  "Keep calm and code on",
-  "Success is not final, failure is not fatal: It is the courage to continue that counts",
-  "The best error message is the one that never shows up",
-  "Stay curious, keep learning",
-  "Don't be afraid to refactor",
-  "The only way to do great work is to love what you do",
-  "Think twice, code once",
-  "The biggest room in the world is the room for improvement",
-  "Believe you can and you're halfway there",
-  "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful",
-  "Hardships often prepare ordinary people for an extraordinary destiny",
-  "Your limitation it's only your imagination",
-  "The harder you work for something, the greater you'll feel when you achieve it",
-  "Success is not in what you have, but who you are",
-  "Your time is limited, don't waste it living someone else's life",
-  "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle",
-  "Success is not the absence of failure; it's the persistence through failure",
-  "Your future is created by what you do today, not tomorrow",
-  "Success is not just about making money. It's about making a difference",
-  "Every day is a new beginning. Take a deep breath, smile, and start again",
-];
+#!/usr/bin/env node
 
 const colors = {
   reset: "\x1b[0m",
@@ -58,11 +33,34 @@ const colors = {
   },
 };
 
-const motivationalMessage = () => {
-  const message = messages[Math.floor(Math.random() * messages.length)];
-  console.log(`${colors.fg.green}${colors.blink}${message}${colors.reset}`);
-};
+const messages = [
+  `${colors.fg.green}${colors.reverse}Your only competitor is the one you see in the mirror${colors.reset}`,
+  `${colors.fg.red}${colors.reverse}You got to lose to know how to win${colors.reset}`,
+  `${colors.fg.blue}${colors.reverse}Code like a boss${colors.reset}`,
+  `${colors.fg.magenta}${colors.reverse}Embrace the bugs, they make you stronger${colors.reset}`,
+  `${colors.fg.cyan}${colors.reverse}Keep calm and code on${colors.reset}`,
+  `${colors.fg.yellow}${colors.reverse}Success is not final, failure is not fatal: It is the courage to continue that counts${colors.reset}`,
+  `${colors.fg.white}${colors.reverse}The best error message is the one that never shows up${colors.reset}`,
+  `${colors.fg.red}${colors.reverse}Stay curious, keep learning${colors.reset}`,
+  `${colors.fg.blue}${colors.reverse}Don't be afraid to refactor${colors.reset}`,
+  `${colors.fg.magenta}${colors.reverse}The only way to do great work is to love what you do${colors.reset}`,
+  `${colors.fg.cyan}${colors.reverse}Think twice, code once${colors.reset}`,
+  `${colors.fg.yellow}${colors.reverse}The biggest room in the world is the room for improvement${colors.reset}`,
+  `${colors.fg.green}${colors.reverse}Believe you can and you're halfway there${colors.reset}`,
+  `${colors.fg.red}${colors.reverse}Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful${colors.reset}`,
+  `${colors.fg.blue}${colors.reverse}Hardships often prepare ordinary people for an extraordinary destiny${colors.reset}`,
+  `${colors.fg.crimson}${colors.reverse}Your limitation it's only your imagination${colors.reset}`,
+  `${colors.fg.white}${colors.reverse}The harder you work for something, the greater you'll feel when you achieve it${colors.reset}`,
+  `${colors.fg.yellow}${colors.reverse}Success is not in what you have, but who you are${colors.reset}`,
+  `${colors.fg.green}${colors.reverse}Your time is limited, don't waste it living someone else's life${colors.reset}`,
+  `${colors.fg.red}${colors.reverse}Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle${colors.reset}`,
+  `${colors.fg.blue}${colors.reverse}Success is not the absence of failure; it's the persistence through failure${colors.reset}`,
+  `${colors.fg.magenta}${colors.reverse}Your future is created by what you do today, not tomorrow${colors.reset}`,
+  `${colors.fg.cyan}${colors.reverse}Success is not just about making money. It's about making a difference${colors.reset}`,
+  `${colors.fg.crimson}${colors.reverse}Every day is a new beginning. Take a deep breath, smile, and start again${colors.reset}`,
+];
 
-export default {
-  motivationalMessage,
-};
+export function motivationalMessage() {
+  const message = messages[Math.floor(Math.random() * messages.length)];
+  console.log(message);
+}
