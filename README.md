@@ -1,5 +1,7 @@
 # Random Motivational Messages Generator for Developers
 
+![Demo](src/assets/GIFs/Animation.gif)
+
 I hope these little but powerful messages help you keep following your goals as a developer 💪🏻.
 
 ## Install
