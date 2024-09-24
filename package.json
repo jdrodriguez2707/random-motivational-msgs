@@ -24,5 +24,6 @@
   "bin": {
     "random-motivational-message": "./bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "type": "module"
 }

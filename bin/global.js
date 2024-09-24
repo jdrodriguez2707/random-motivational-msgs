@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-let random = require("../src/index.js");
+import motivationalMessage from '../src/index.js';
 
-random.motivationalMessage();
+motivationalMessage();

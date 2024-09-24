@@ -43,7 +43,7 @@ const colors = {
     magenta: "\x1b[35m",
     cyan: "\x1b[36m",
     white: "\x1b[37m",
-    crimson: "\x1b[38m" // Scarlet
+    crimson: "\x1b[38m", // Scarlet
   },
   bg: {
     black: "\x1b[40m",
@@ -54,8 +54,8 @@ const colors = {
     magenta: "\x1b[45m",
     cyan: "\x1b[46m",
     white: "\x1b[47m",
-    crimson: "\x1b[48m"
-  }
+    crimson: "\x1b[48m",
+  },
 };
 
 const motivationalMessage = () => {
@@ -63,6 +63,6 @@ const motivationalMessage = () => {
   console.log(`${colors.fg.green}${colors.blink}${message}${colors.reset}`);
 };
 
-module.exports = {
+export default {
   motivationalMessage,
 };
