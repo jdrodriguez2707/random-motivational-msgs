@@ -16,8 +16,7 @@ npm install -g random-motivational-msgs
 motivate
 ```
 
-## Bonus
-
+> [!TIP]
 You can add this command to your `.bashrc` or `.zshrc` file to get a random motivational message every time you open a new terminal window.
 
 ```bash
